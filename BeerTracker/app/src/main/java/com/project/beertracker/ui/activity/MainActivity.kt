@@ -1,4 +1,4 @@
-package com.project.beertracker
+package com.project.beertracker.ui.activity
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -15,6 +15,7 @@ import com.project.beertracker.ui.theme.BeerTrackerTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         setContent {
             BeerTrackerTheme {
                 // A surface container using the 'background' color from the theme
